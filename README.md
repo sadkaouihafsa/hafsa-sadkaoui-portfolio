@@ -12,3 +12,10 @@
 1. Add the real resume at `public/resume.pdf`.
 2. Replace the email, LinkedIn, and GitHub placeholders in `app/page.tsx`.
 3. Add only confirmed GitHub, demo, technology, and image information to future project files.
+
+## Deploy with Vercel
+
+1. In Vercel, add a new project and import `sadkaouihafsa/hafsa-sadkaoui-portfolio`.
+2. Leave the root directory as `./`. Vercel reads `vercel.json` and builds the static site into `dist/client`.
+3. Deploy. Future pushes to `main` automatically create production deployments.
+4. In Vercel's Domains settings, add `hafsasadkaoui.com` and follow the DNS records Vercel provides for Spaceship.
